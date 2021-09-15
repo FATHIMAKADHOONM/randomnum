@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<head>
+<title>Random using func</title>
+
+</head>
+<body>
+<script>
+
+// Function to generate random number
+function randomNumber(min, max) {
+	return Math.random() * (max - min) + min;
+}
+
+document.write("Random Number between 1 and 100: ")
+
+// Function call
+document.write( randomNumber(1, 101) );
+</script>								
+
+
+</body>
+</html>
